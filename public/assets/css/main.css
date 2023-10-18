@@ -1,0 +1,85 @@
+.lang-swiper {
+    width: 105px;
+    overflow: hidden;
+    position: relative;
+}
+.lang-swiper .button-next, .lang-swiper .button-prev {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    z-index: 999;
+}
+.lang-swiper .button-next{
+    background-image: url(../images/lang-chevron-right.svg);
+}
+.lang-swiper .button-prev{
+    background-image: url(../images/lang-chevron-left.svg);
+}
+.lang-swiper .button-next {
+    right: 0;
+}
+.lang-swiper .button-prev {
+
+}
+.main-slider-swiper {
+    overflow: hidden;
+}
+.slider-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.slider-logo {
+    position: relative;
+    z-index: 2;
+    margin: 50px 0 50px 0;
+}
+.layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(68,68,68,0.8);
+    z-index: 1;
+}
+.swiper-pagination-bullet{
+    border-radius: 50%;
+    height: 15px!important;
+    width: 15px!important;
+    border: 2px solid white;
+    background: transparent!important;
+    opacity: 1!important;
+}
+.swiper-pagination-bullet-active{
+    width: 45px!important;
+    border-radius: 30px!important;
+}
+.company {
+    background-color: #FAFAFA;
+    box-shadow: 0px 1px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 11px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 11px 0px rgba(0,0,0,0.75);
+}
+.divider {
+    height: 10px;
+    background-color: #9F9F9F;
+}
+footer {
+    background-color: #373435;
+}
+.gold-gradient {
+    background: #947341;
+    background: linear-gradient(to right, #947341 0%, #B38F52 17%, #D2AB63 35%, #E5D896 57%, #D2AB63 78%, #846439 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+@media (min-width: 1280px) {
+    .slider-bg {
+        height: 580px;
+    }
+}
